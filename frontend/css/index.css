@@ -1,0 +1,150 @@
+/* FONTS */
+/* @font-face {
+	font-family: 'Roboto Thin';
+	src: url('fonts/Roboto-Thin.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Green Beans';
+	src: url('fonts/Green Beans_PersonalUseOnly.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+} */
+@font-face {
+	font-family: 'Grota Sans Bold';
+	src: url(../fonts/Grota\ Sans\ Bold.otf);
+}
+
+/* Body */
+body {
+	background: #fff;
+	margin: 0;
+	font-family: 'Grota Sans Bold', sans-serif;
+}
+
+/* Header */
+header {
+	background: #000;
+	border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+	color: #fff;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+header a {
+	color: #fff !important;
+}
+header a:hover {
+	text-decoration: none;
+}
+a.icon_contraste {
+    color: #000 !important;
+}
+
+/* Main */
+main {
+	background: #fff;
+	color: #000;
+	padding-left: 90px;
+}
+
+/* Landing Page */
+main#landingPage {
+    padding-top: 2.5rem;
+    padding-left: 4rem;
+}
+.titulo_principal {
+	font-size: 50px;
+	line-height: 64px;
+}
+.titulo_complementar {
+	line-height: 25px;
+}
+
+/* Required Inputs  "*" */
+.campo_obrigatorio::after {
+	content: ' *';
+	color: red;
+}
+
+/* Cadastro de Usuário */
+#form-usuario .form-control, #form-orgao .form-control, #form-objeto .form-control, #form-fale-conosco .form-control {
+	border: 2px solid #000;
+}
+
+/* main wrapper */
+main.container.wrapper {
+	min-height: calc(101vh - 150px);
+}
+
+/* Login */
+.card {
+	background: #000;
+	color: #fff;
+}
+#form-login input {
+	border: 3px solid #fff;
+}
+.btn_cad .btn_login {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Button Cad Form */
+.btn_cad {
+	display: flex;
+	justify-content: center;
+}
+
+/* Default Button */
+.botao {
+	background: #000;
+	color: #fff;
+    font-size: 1.25rem;
+    line-height: 1.5;
+	padding: 0.6rem 1.6rem;
+	border: none;
+	border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botao a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Custom IMG - Landing Page*/
+.img_entrega_objeto {
+	width: 75%;
+	padding-left: 3rem;
+	border-radius: 15px;
+}
+
+/* Custom HR  - Landing Page*/
+hr {
+	background: #000;
+    width: 92%;
+}
+
+/* Icone Contraste - Acessibilidade */
+.icon_contraste img {
+    width: 15px;
+    height: 15px;
+}
+.icon_contraste:active {
+	background: #000;
+}
+
+/* Footer */
+footer {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	background: #000;
+	color: #fff;
+}
+footer .version{
+	font-size: 10px;
+}
+
+
